@@ -84,8 +84,13 @@ nav {
   
   .sidebar-top .logo {
     width: 3rem;
+    height: 3rem;
     margin: 0 0.4rem;
     border-radius: 50%;
+  }
+
+  .sidebar-top .logo i {
+    font-size: 3rem;
   }
   
   .sidebar-top h3 {
@@ -268,10 +273,14 @@ nav {
     overflow: hidden;
   }
   
-  .admin-user img {
+  .admin-user .logo {
     width: 2.9rem;
     border-radius: 50%;
     margin: 0 0.4rem;
+  }
+
+  .admin-user .logo i {
+    font-size: 2rem;
   }
   
   .admin-info {
